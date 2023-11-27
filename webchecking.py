@@ -29,7 +29,6 @@ async def authenticate_user(
                 }
             }
         )
-        print(f"Matched {result.matched_count} document(s) and modified {result.modified_count} document(s).")
 
 
         return "인증되셨습니다."
